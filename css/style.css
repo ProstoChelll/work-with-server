@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Rubik;
+    font-weight: 400;
+}
+html{
+   width: 100%;
+   max-width: 100%;
+   margin: 0;
+   padding: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+.btn__div{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    background: chocolate;
+    color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
